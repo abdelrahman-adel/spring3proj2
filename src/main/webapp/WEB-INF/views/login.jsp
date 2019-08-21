@@ -10,7 +10,7 @@
 	<p>
 		<font color="red">${errorMessage}</font>
 	</p>
-	<form action="/login.do" method="post">
+	<form action="/login" method="post">
 		Username: <input type="text" name="username" />
 		Password: <input type="password" name="password" /> <input type="submit" />
 	</form>
