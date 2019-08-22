@@ -39,7 +39,7 @@ public class LoginController {
 		}
 
 		modelMap.put("errorMessage", "Wrong credentials !!");
-		return "welcome";
+		return "login";
 	}
 
 	@RequestMapping(value = "/hello")
